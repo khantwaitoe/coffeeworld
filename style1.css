@@ -1,0 +1,267 @@
+  
+
+*{
+	margin: 0;
+	padding: 0;
+}
+div#header{
+	margin: 0 500px;
+}
+div#header h1{
+	font-family: 'lobster';
+	font-size: 50px;
+	padding-top:15px;
+}
+
+div#header img{
+	width: 150px;
+	height: 100px;
+	float:left;
+}
+
+.clear{
+	clear:both;
+}
+#navbar{
+	width: 100%;
+	background: #3E332E;
+}
+ 
+#navbar .nav_ul li{
+	list-style: none;
+	float:left;
+	padding-left:20px: 
+}
+
+#navbar .nav_ul li a{
+	color: #FFF;
+	text-decoration: none;
+	padding:20px 50px;
+	display: block;
+	text-transform: uppercase;
+	font-family: 'poppin';
+}
+
+
+#navbar .nav_ul li a:hover, .active{
+	background-color: #5D4037;
+
+}
+div#slider img{
+	width: 100%;
+	height: 500px;
+	/*object-fit: cover;*/
+	position:relative;
+}
+div.quote{
+	position: absolute;
+	background-color: rgba(255,255,255,0.5);
+	top: 45%;
+	left: 20%;
+	font-size: 30px;
+	padding:30px;
+	font-family: Myanmar3,Yunghkio;
+}
+
+div#service  {
+	margin: 100px 400px 50px 400px;
+}
+div#service h1{
+	text-align: center;
+	font-family: 'balloo';
+	margin-bottom: 30px;
+}
+
+
+div#service p{
+	margin top: 30px;
+	text-align: center;
+	font-family: 'balloo';
+
+}
+div#icons{
+	margin-top: 100px;
+	display: block;
+	margin: 20px 400px 20px  400px;
+}
+div#icons.clear{
+	clear:both;
+}
+div#icons img{
+	width:80px;
+	padding:50px;
+	padding:10px 40px 10px 40px;
+	float:left;
+}
+div#contents{
+	margin: 10px 400px 100px 400px;
+
+}
+div#contents .content{
+	float: left;
+	margin: 0;
+	width: 30%;
+	padding:5px;
+	text-align: center;
+	font-family: 'lobster';
+
+}
+div#contents .clear{
+	clear: both; 
+}
+div#our_shop{
+	margin: 100px 200px 100px 200px;
+}
+div#our_shop h1{
+	text-align: center;
+	font-family: 'lobster';
+	margin:20px 0px 20px 0px;
+}
+div#our_shop .image{
+	margin-top: 30px 100px ;
+}
+
+div#our_shop img {
+	float: left;
+	width: 150px;
+	height: 200px;
+	padding: 1px; 
+	margin-top:100px;
+}
+div#our_shop .reason{
+	width: 45%;
+	
+	float: right;
+	margin-top:100px;
+	text-align: center;
+	margin-left: 10px;
+	font-family:'lobster';
+}
+div#our_shop .reason h3{
+	text-align: center;
+	margin-bottom: 20px;
+}
+div#our_shop .clear{
+	clear:both;
+}
+div#special{
+	margin:100px 400px 50px 400px;
+
+}
+div#special h1{
+	text-align: center;
+	font-family: 'lobster';
+	margin:20px 0px 20px 0px;
+
+}
+div#special p{
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 100px;
+	width: 70%;
+	font-family: 'poppin';
+
+}
+div#special .clear{
+	clear:both;
+}
+
+
+div.image1{
+	margin: 50px 50px 50px 50px;
+	position: relative;
+}
+div.image1 .img1{
+	float: left;
+	width: 480px;
+	height: 300px;
+}
+div.image1 .clear{
+	clear: both; 
+}
+
+
+div.image1 .img2{
+
+	float: right;
+	width: 300px;
+	height: 180px;
+	margin-left: 80px;
+
+}
+div.image1 .img3{
+	width:50px;
+	height: 100px;
+	padding-top:10px;
+	margin-left: 90px;
+	float: left;
+
+}
+
+}
+div.image1 .img4{
+	width:50px;
+	height: 100px;
+	padding-top:10px;
+	margin-left: 28px;
+	float: left;
+
+}
+div.image1 .clear{
+	clear: both;
+
+}
+div#daily_menu {
+	margin: 100px 300px 100px 300px;
+}
+
+
+div#daily_menu  h1{
+	text-align: center;
+	font-family: 'balloo';
+	margin : 20px 0px 20px 0px;
+}
+div#daily_menu .clear{
+	clear:both;
+}
+
+div#daily_menu .menu{
+	margin : 30px 0px  200px 0px;
+	position: relative;
+
+}
+div#daily_menu .menu img{
+	float: left;
+	width: 250px;
+	height: 350px;
+	padding-right: 100px; 
+}
+div#daily_menu .content2 h3{
+	float: left;
+	font-family: 'balloo';
+	margin-bottom: 20px;
+
+}
+div#daily_menu .content2 ol{
+	float: left;
+	font-family: 'balloo';
+	margin-top: 20px;
+	font-size: 20px;
+	line-height: 30px;
+}
+div#daily_menu .menu .clear{
+	clear:both;
+}
+div#footer{
+	backgroung-color:#F1F1F1;
+	text-align: center;
+	padding:10px;
+	background-color: #c46c35;
+	color:white;
+
+}
+div#footer .copyright{
+	float: left;
+	padding-left: 100px;
+	padding-right: 700px;
+}
